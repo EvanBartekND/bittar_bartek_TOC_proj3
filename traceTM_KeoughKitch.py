@@ -1,5 +1,4 @@
 import csv
-from collections import deque
 
 class TuringMachine:
     def __init__(self, tm_file):
