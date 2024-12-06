@@ -4,10 +4,10 @@ Version 1 8/22/24
 
 Team name: KeoughKitch
 Names of all team members: Evan Bartek, Alex Bittar
-Link to github repository:
+Link to github repository:git@github.com:EvanBartekND/bittar_bartek_TOC_proj3.git
 Which project options were attempted: Version 1, Problem 1 and RESE
 Approximately total time spent on project: 
-The language you used, and a list of libraries you invoked.
+The language you used, and a list of libraries you invoked: Python Language with csv library
 How would a TA run your program (did you provide a script to run a test case?)
 A brief description of the key data structures you used, and how the program functioned.
 A discussion as to what test cases you added and why you decided to add them (what did they tell you about the correctness of your code). Where did the data come from? (course website, handcrafted, a data generator, other)
