@@ -1,4 +1,4 @@
-python3 traceTM_KeoughKitch.py tests/abc_star.csv abcabcabc
+python3 traceTM_KeoughKitch.py tests/abc_star_KeoughKitch.csv abcabcabc
 String rejected in 3 transitions.
 Machine Name: a*b*c* Nondeterministic
 Input String: abcabcabc
@@ -6,7 +6,7 @@ Depth of Configurations: 3
 Total Transitions Simulated: 15
 Average Non-determinism: 0.93
 
-python3 traceTM_KeoughKitch.py tests/a_plus.csv ababab
+python3 traceTM_KeoughKitch.py tests/a_plus_KeoughKitch.csv ababab
 String rejected in 1 transitions.
 Machine Name: a plus
 Input String: ababab
