@@ -19,8 +19,8 @@ How would a TA run your program (did you provide a script to run a test case?): 
 A brief description of the key data structures you used, and how the program functioned. Lists were used to store the sequence and represent the tapes. Dictionaries are used to store transition functions, Tuples were used for the configuration of the Turing Machine.
 
 
-A discussion as to what test cases you added and why you decided to add them (what did they tell you about the correctness of your code). Where did the data come from? (course website, handcrafted, a data generator, other) We used the test cases provided under one of the announcemnets from the Canvas site.
-
+A discussion as to what test cases you added and why you decided to add them (what did they tell you about the correctness of your code). Where did the data come from? (course website, handcrafted, a data generator, other) We used the test cases provided under one of the announcemnets from the Canvas site. These were found on the shared google drive.The NTM machines were used as well as the equal number of 0s and 1s test.
+i
 
 An analysis of the results, such as if timings were called for, which plots showed what? What was the approximate complexity of your program?
 
