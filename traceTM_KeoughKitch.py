@@ -51,10 +51,11 @@ class TuringMachine:
         return next_configurations
 
 def trace_ntm(tm_file, input_string, max_depth=100, max_steps=1000):
+    
     tm = TuringMachine(tm_file)
     # print(f"Turing Machine: {tm.name}")
     # print(f"Input String: {input_string}")
-
+    # Initial tape setup
     initial_tape = list(input_string)
     initial_configuration = (tm.start_state, initial_tape, 0)
     configuration_tree = [[initial_configuration]]
@@ -108,7 +109,7 @@ def print_trace(configuration_tree):
             head_char = tape[head_pos] if head_pos < len(tape) else "_"
             right_of_head = ''.join(tape[head_pos + 1:])
             print(f"{left_of_head}, {state}, {head_char}, {right_of_head}")
-
+# Function to print summary of simulation
 def print_summary(tm, input_string, depth, transitions, total_configurations, total_children):
     avg_nondeterminism = total_children / total_configurations if total_configurations > 0 else 0
     print(f"Machine Name: {tm.name}")
