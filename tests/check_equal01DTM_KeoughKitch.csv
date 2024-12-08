@@ -1,0 +1,29 @@
+Machine, 1
+State,q0,q1,q2,q3,q4,qacc,qrej
+Alphabet,0,1
+Tape Symbols,0,1,x,_ 
+Start State,q0
+Accept State,qacc
+Reject State,qrej
+Transitions
+q0,_,qacc,_,R
+q0,0,q1,x,R
+q0,1,q2,x,R
+q1,0,q1,0,R
+q1,x,q1,x,R
+q1,1,q3,x,L
+q1,_,qrej,_,R  
+q2,1,q2,1,R
+q2,x,q2,x,R
+q2,0,q3,x,L
+q2,_,qrej,_,R  
+q3,0,q3,0,L
+q3,1,q3,1,L
+q3,x,q3,x,L
+q3,_,q4,_,R
+q3,_,qrej,_,R  
+q4,_,qacc,_,R
+q4,1,q2,x,R
+q4,0,q1,x,R
+q4,x,q4,x,R
+q4,_,qrej,_,R  

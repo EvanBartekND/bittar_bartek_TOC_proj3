@@ -1,0 +1,38 @@
+A document with a detailed discussion of how your codes work, how they modeled nondeterminism, and how your chose test cases demonstrated correct behavior. In particular, this should describe how you ”traced” your machine’s execution (and printed out intermediate steps), and measured nondeterminism in each run
+
+NTM simulation
+Nondeterminism
+arises from the fact that for a given state and input symbol, there can be multiple valid next configurations. This is represented in the transitions dictionary, where each key is a tuple (state, symbol) and its value is a list of possible (next_state, write_symbol, direction) triples.
+When the Turing machine is in a particular state and the head reads a symbol, the machine can move to multiple possible next states
+
+Test cases used
+equal1/0 - accepts equal number of 0s and 1s in a string 
+abc* - accepts any amount of As followed by any amount of Bs, followed by any number of Cs.
+A+ - any amount of As.
+These test cases demonstrate correct behavior as the program accurately rejects/accepts all three as seen in the output file. This would only be possible if the program accurately determined which “path” to take when given the option of multiple children as it can only reject if all options are tried.
+
+How did we trace
+As seen in the print function, every step can be printed out alongside its tape and the possible children it can take. This function call is commented out in the submission to make output nicer.
+
+How did we measure nondeterminism
+total_children keeps a count of all the possible next configurations (i.e., the number of "branches" the machine explores at each step). 
+total_configurations counts the total number of configurations the machine encounters
+average nondeterminism is computed as the ratio of total_children to total_configurations
+
+
+K-Tape simulation
+Nondeterminism
+There is no nondeterminism as the machine is deterministic
+
+Test cases used
+We chose to use a machine that determines if there are an equal number of 1s and 0s in a machine. The two test cases for this program both accomplish this.
+The first one does this with one tape
+The second one uses two tapes just to ensure the code has multi tape functionality when reading in a machine. In this test case the second tape is used to trace the order in which items were accessed.
+Both test machines accomplish the same thing but are formatted differently as all of our other test machines were non-functional
+These two test cases demonstrate that the program functions with both 1 tape and 2 tape turing machines. This can be seen in the trace output file
+
+How did we trace
+Every step of the machine, the program will print out the step, the state the machine is in, and each of the tapes, with the head centered in the middle. This allows for the user to accurately trace each step of the machine.
+
+How did we measure nondeterminism
+There is no nondeterminism as the machine is deterministic

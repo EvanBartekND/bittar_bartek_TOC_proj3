@@ -1,0 +1,62 @@
+$ python3 traceTM_KeoughKitch.py tests/check_abcstar_KeoughKitch.csv aaaaabbbc
+
+--- Summary ---
+String accepted in 10 transitions.
+Machine Name: a*b*c* Nondeterministic
+Input String: aaaaabbbc
+Depth of Configurations: 10
+Total Transitions Simulated: 43
+Average Non-determinism: 0.98
+----------------
+
+$ python3 traceTM_KeoughKitch.py tests/check_abcstar_KeoughKitch.csv aaaaabbbca
+String rejected in 9 transitions.
+Machine Name: a*b*c* Nondeterministic
+Input String: aaaaabbbca
+Depth of Configurations: 9
+Total Transitions Simulated: 43
+Average Non-determinism: 0.98
+----------------
+
+$ python3 traceTM_KeoughKitch.py tests/check_aplus_KeoughKitch.csv aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+--- Summary ---
+String accepted in 28 transitions.
+Machine Name: a plus
+Input String: aaaaaaaaaaaaaaaaaaaaaaaaaaa
+Depth of Configurations: 28
+Total Transitions Simulated: 55
+Average Non-determinism: 0.98
+----------------
+
+$ python3 traceTM_KeoughKitch.py tests/check_aplus_KeoughKitch.csv aaaaaaaaaaaaaaaaaaaaaaaaaaab
+String rejected in 27 transitions.
+Machine Name: a plus
+Input String: aaaaaaaaaaaaaaaaaaaaaaaaaaab
+Depth of Configurations: 27
+Total Transitions Simulated: 55
+Average Non-determinism: 0.98
+----------------
+
+
+$ python3 traceTM_KeoughKitch.py tests/check_equal01_KeoughKitch.csv 1010101010
+
+--- Summary ---
+String accepted in 61 transitions.
+Machine Name: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 1010101010
+Depth of Configurations: 61
+Total Transitions Simulated: 92
+Average Non-determinism: 1.00
+----------------
+
+$ python3 traceTM_KeoughKitch.py tests/check_equal01_KeoughKitch.csv 10101010101
+String rejected in 61 transitions.
+Machine Name: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 10101010101
+Depth of Configurations: 61
+Total Transitions Simulated: 92
+Average Non-determinism: 0.99
+----------------
+
+
