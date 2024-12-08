@@ -1,456 +1,540 @@
-$ ./ktape_keoughKitch.py tests/check_equal01DTM_KeoughKitch.csv 1001011
-Running Machine on input: 1001011
+$ ./ktape_keoughKitch.py tests/check_2tapeDTM_KeoughKitch.csv 111000
+Running Machine on input: 111000
 Step 0:
 state: q0
-Tape 0: __________1001011___
+Tape 0: __________111000____
+Tape 1: ____________________
 Step 1:
 state: q2
-Tape 0: _________x001011____
+Tape 0: _________x11000_____
+Tape 1: _________1__________
 Step 2:
-state: q3
-Tape 0: __________xx01011___
+state: q2
+Tape 0: ________x11000______
+Tape 1: _________1__________
 Step 3:
-state: q3
-Tape 0: ___________xx01011__
+state: q2
+Tape 0: _______x11000_______
+Tape 1: _________1__________
 Step 4:
-state: q4
-Tape 0: __________xx01011___
+state: q3
+Tape 0: ________x11x00______
+Tape 1: ________10__________
 Step 5:
-state: q4
-Tape 0: _________xx01011____
+state: q3
+Tape 0: _________x11x00_____
+Tape 1: ________10__________
 Step 6:
-state: q4
-Tape 0: ________xx01011_____
+state: q3
+Tape 0: __________x11x00____
+Tape 1: ________10__________
 Step 7:
-state: q1
-Tape 0: _______xxx1011______
+state: q3
+Tape 0: ___________x11x00___
+Tape 1: ________10__________
 Step 8:
-state: q3
-Tape 0: ________xxxx011_____
+state: q4
+Tape 0: __________x11x00____
+Tape 1: ________10__________
 Step 9:
-state: q3
-Tape 0: _________xxxx011____
+state: q4
+Tape 0: _________x11x00_____
+Tape 1: ________10__________
 Step 10:
-state: q3
-Tape 0: __________xxxx011___
+state: q2
+Tape 0: ________xx1x00______
+Tape 1: _______101__________
 Step 11:
-state: q3
-Tape 0: ___________xxxx011__
+state: q2
+Tape 0: _______xx1x00_______
+Tape 1: _______101__________
 Step 12:
-state: q4
-Tape 0: __________xxxx011___
+state: q2
+Tape 0: ______xx1x00________
+Tape 1: _______101__________
 Step 13:
-state: q4
-Tape 0: _________xxxx011____
+state: q3
+Tape 0: _______xx1xx0_______
+Tape 1: ______1010__________
 Step 14:
-state: q4
-Tape 0: ________xxxx011_____
+state: q3
+Tape 0: ________xx1xx0______
+Tape 1: ______1010__________
 Step 15:
-state: q4
-Tape 0: _______xxxx011______
+state: q3
+Tape 0: _________xx1xx0_____
+Tape 1: ______1010__________
 Step 16:
-state: q4
-Tape 0: ______xxxx011_______
+state: q3
+Tape 0: __________xx1xx0____
+Tape 1: ______1010__________
 Step 17:
-state: q1
-Tape 0: _____xxxxx11________
+state: q3
+Tape 0: ___________xx1xx0___
+Tape 1: ______1010__________
 Step 18:
-state: q3
-Tape 0: ______xxxxxx1_______
+state: q4
+Tape 0: __________xx1xx0____
+Tape 1: ______1010__________
 Step 19:
-state: q3
-Tape 0: _______xxxxxx1______
+state: q4
+Tape 0: _________xx1xx0_____
+Tape 1: ______1010__________
 Step 20:
-state: q3
-Tape 0: ________xxxxxx1_____
+state: q4
+Tape 0: ________xx1xx0______
+Tape 1: ______1010__________
 Step 21:
-state: q3
-Tape 0: _________xxxxxx1____
+state: q2
+Tape 0: _______xxxxx0_______
+Tape 1: _____10101__________
 Step 22:
-state: q3
-Tape 0: __________xxxxxx1___
+state: q2
+Tape 0: ______xxxxx0________
+Tape 1: _____10101__________
 Step 23:
-state: q3
-Tape 0: ___________xxxxxx1__
+state: q2
+Tape 0: _____xxxxx0_________
+Tape 1: _____10101__________
 Step 24:
-state: q4
-Tape 0: __________xxxxxx1___
+state: q3
+Tape 0: ______xxxxxx________
+Tape 1: ____101010__________
 Step 25:
-state: q4
-Tape 0: _________xxxxxx1____
+state: q3
+Tape 0: _______xxxxxx_______
+Tape 1: ____101010__________
 Step 26:
-state: q4
-Tape 0: ________xxxxxx1_____
+state: q3
+Tape 0: ________xxxxxx______
+Tape 1: ____101010__________
 Step 27:
-state: q4
-Tape 0: _______xxxxxx1______
+state: q3
+Tape 0: _________xxxxxx_____
+Tape 1: ____101010__________
 Step 28:
-state: q4
-Tape 0: ______xxxxxx1_______
+state: q3
+Tape 0: __________xxxxxx____
+Tape 1: ____101010__________
 Step 29:
-state: q4
-Tape 0: _____xxxxxx1________
+state: q3
+Tape 0: ___________xxxxxx___
+Tape 1: ____101010__________
 Step 30:
 state: q4
-Tape 0: ____xxxxxx1_________
+Tape 0: __________xxxxxx____
+Tape 1: ____101010__________
 Step 31:
+state: q4
+Tape 0: _________xxxxxx_____
+Tape 1: ____101010__________
+Step 32:
+state: q4
+Tape 0: ________xxxxxx______
+Tape 1: ____101010__________
+Step 33:
+state: q4
+Tape 0: _______xxxxxx_______
+Tape 1: ____101010__________
+Step 34:
+state: q4
+Tape 0: ______xxxxxx________
+Tape 1: ____101010__________
+Step 35:
+state: q4
+Tape 0: _____xxxxxx_________
+Tape 1: ____101010__________
+Step 36:
+state: q4
+Tape 0: ____xxxxxx__________
+Tape 1: ____101010__________
+Accepted.
+
+$ ./ktape_keoughKitch.py tests/check_2tapeDTM_KeoughKitch.csv 1110001
+Running Machine on input: 1110001
+Step 0:
+state: q0
+Tape 0: __________1110001___
+Tape 1: ____________________
+Step 1:
+state: q2
+Tape 0: _________x110001____
+Tape 1: _________1__________
+Step 2:
+state: q2
+Tape 0: ________x110001_____
+Tape 1: _________1__________
+Step 3:
+state: q2
+Tape 0: _______x110001______
+Tape 1: _________1__________
+Step 4:
+state: q3
+Tape 0: ________x11x001_____
+Tape 1: ________10__________
+Step 5:
+state: q3
+Tape 0: _________x11x001____
+Tape 1: ________10__________
+Step 6:
+state: q3
+Tape 0: __________x11x001___
+Tape 1: ________10__________
+Step 7:
+state: q3
+Tape 0: ___________x11x001__
+Tape 1: ________10__________
+Step 8:
+state: q4
+Tape 0: __________x11x001___
+Tape 1: ________10__________
+Step 9:
+state: q4
+Tape 0: _________x11x001____
+Tape 1: ________10__________
+Step 10:
+state: q2
+Tape 0: ________xx1x001_____
+Tape 1: _______101__________
+Step 11:
+state: q2
+Tape 0: _______xx1x001______
+Tape 1: _______101__________
+Step 12:
+state: q2
+Tape 0: ______xx1x001_______
+Tape 1: _______101__________
+Step 13:
+state: q3
+Tape 0: _______xx1xx01______
+Tape 1: ______1010__________
+Step 14:
+state: q3
+Tape 0: ________xx1xx01_____
+Tape 1: ______1010__________
+Step 15:
+state: q3
+Tape 0: _________xx1xx01____
+Tape 1: ______1010__________
+Step 16:
+state: q3
+Tape 0: __________xx1xx01___
+Tape 1: ______1010__________
+Step 17:
+state: q3
+Tape 0: ___________xx1xx01__
+Tape 1: ______1010__________
+Step 18:
+state: q4
+Tape 0: __________xx1xx01___
+Tape 1: ______1010__________
+Step 19:
+state: q4
+Tape 0: _________xx1xx01____
+Tape 1: ______1010__________
+Step 20:
+state: q4
+Tape 0: ________xx1xx01_____
+Tape 1: ______1010__________
+Step 21:
+state: q2
+Tape 0: _______xxxxx01______
+Tape 1: _____10101__________
+Step 22:
+state: q2
+Tape 0: ______xxxxx01_______
+Tape 1: _____10101__________
+Step 23:
+state: q2
+Tape 0: _____xxxxx01________
+Tape 1: _____10101__________
+Step 24:
+state: q3
+Tape 0: ______xxxxxx1_______
+Tape 1: ____101010__________
+Step 25:
+state: q3
+Tape 0: _______xxxxxx1______
+Tape 1: ____101010__________
+Step 26:
+state: q3
+Tape 0: ________xxxxxx1_____
+Tape 1: ____101010__________
+Step 27:
+state: q3
+Tape 0: _________xxxxxx1____
+Tape 1: ____101010__________
+Step 28:
+state: q3
+Tape 0: __________xxxxxx1___
+Tape 1: ____101010__________
+Step 29:
+state: q3
+Tape 0: ___________xxxxxx1__
+Tape 1: ____101010__________
+Step 30:
+state: q4
+Tape 0: __________xxxxxx1___
+Tape 1: ____101010__________
+Step 31:
+state: q4
+Tape 0: _________xxxxxx1____
+Tape 1: ____101010__________
+Step 32:
+state: q4
+Tape 0: ________xxxxxx1_____
+Tape 1: ____101010__________
+Step 33:
+state: q4
+Tape 0: _______xxxxxx1______
+Tape 1: ____101010__________
+Step 34:
+state: q4
+Tape 0: ______xxxxxx1_______
+Tape 1: ____101010__________
+Step 35:
+state: q4
+Tape 0: _____xxxxxx1________
+Tape 1: ____101010__________
+Step 36:
+state: q4
+Tape 0: ____xxxxxx1_________
+Tape 1: ____101010__________
+Step 37:
 state: q2
 Tape 0: ___xxxxxxx__________
+Tape 1: ___1010101__________
 Rejected.
 
-$ ./ktape_keoughKitch.py tests/check_equal01DTM_KeoughKitch.csv 100101
-Running Machine on input: 100101
+$ ./ktape_keoughKitch.py tests/check_equal01DTM_KeoughKitch.csv 111000
+Running Machine on input: 111000
 Step 0:
 state: q0
-Tape 0: __________100101____
+Tape 0: __________111000____
 Step 1:
 state: q2
-Tape 0: _________x00101_____
+Tape 0: _________x11000_____
 Step 2:
-state: q3
-Tape 0: __________xx0101____
+state: q2
+Tape 0: ________x11000______
 Step 3:
-state: q3
-Tape 0: ___________xx0101___
+state: q2
+Tape 0: _______x11000_______
 Step 4:
-state: q4
-Tape 0: __________xx0101____
+state: q3
+Tape 0: ________x11x00______
 Step 5:
-state: q4
-Tape 0: _________xx0101_____
+state: q3
+Tape 0: _________x11x00_____
 Step 6:
-state: q4
-Tape 0: ________xx0101______
+state: q3
+Tape 0: __________x11x00____
 Step 7:
-state: q1
-Tape 0: _______xxx101_______
+state: q3
+Tape 0: ___________x11x00___
 Step 8:
-state: q3
-Tape 0: ________xxxx01______
+state: q4
+Tape 0: __________x11x00____
 Step 9:
-state: q3
-Tape 0: _________xxxx01_____
+state: q4
+Tape 0: _________x11x00_____
 Step 10:
-state: q3
-Tape 0: __________xxxx01____
+state: q2
+Tape 0: ________xx1x00______
 Step 11:
-state: q3
-Tape 0: ___________xxxx01___
+state: q2
+Tape 0: _______xx1x00_______
 Step 12:
-state: q4
-Tape 0: __________xxxx01____
+state: q2
+Tape 0: ______xx1x00________
 Step 13:
-state: q4
-Tape 0: _________xxxx01_____
+state: q3
+Tape 0: _______xx1xx0_______
 Step 14:
-state: q4
-Tape 0: ________xxxx01______
+state: q3
+Tape 0: ________xx1xx0______
 Step 15:
-state: q4
-Tape 0: _______xxxx01_______
+state: q3
+Tape 0: _________xx1xx0_____
 Step 16:
-state: q4
-Tape 0: ______xxxx01________
+state: q3
+Tape 0: __________xx1xx0____
 Step 17:
-state: q1
-Tape 0: _____xxxxx1_________
+state: q3
+Tape 0: ___________xx1xx0___
 Step 18:
+state: q4
+Tape 0: __________xx1xx0____
+Step 19:
+state: q4
+Tape 0: _________xx1xx0_____
+Step 20:
+state: q4
+Tape 0: ________xx1xx0______
+Step 21:
+state: q2
+Tape 0: _______xxxxx0_______
+Step 22:
+state: q2
+Tape 0: ______xxxxx0________
+Step 23:
+state: q2
+Tape 0: _____xxxxx0_________
+Step 24:
 state: q3
 Tape 0: ______xxxxxx________
-Step 19:
+Step 25:
 state: q3
 Tape 0: _______xxxxxx_______
-Step 20:
-state: q3
-Tape 0: ________xxxxxx______
-Step 21:
-state: q3
-Tape 0: _________xxxxxx_____
-Step 22:
-state: q3
-Tape 0: __________xxxxxx____
-Step 23:
-state: q3
-Tape 0: ___________xxxxxx___
-Step 24:
-state: q4
-Tape 0: __________xxxxxx____
-Step 25:
-state: q4
-Tape 0: _________xxxxxx_____
 Step 26:
-state: q4
+state: q3
 Tape 0: ________xxxxxx______
 Step 27:
+state: q3
+Tape 0: _________xxxxxx_____
+Step 28:
+state: q3
+Tape 0: __________xxxxxx____
+Step 29:
+state: q3
+Tape 0: ___________xxxxxx___
+Step 30:
+state: q4
+Tape 0: __________xxxxxx____
+Step 31:
+state: q4
+Tape 0: _________xxxxxx_____
+Step 32:
+state: q4
+Tape 0: ________xxxxxx______
+Step 33:
 state: q4
 Tape 0: _______xxxxxx_______
-Step 28:
+Step 34:
 state: q4
 Tape 0: ______xxxxxx________
-Step 29:
+Step 35:
 state: q4
 Tape 0: _____xxxxxx_________
-Step 30:
+Step 36:
 state: q4
 Tape 0: ____xxxxxx__________
 Accepted.
 
-$ ./ktape_keoughKitch.py tests/check_2tapeDTM_KeoughKitch.csv 100101
-Running Machine on input: 100101
+$ ./ktape_keoughKitch.py tests/check_equal01DTM_KeoughKitch.csv 1110001
+Running Machine on input: 1110001
 Step 0:
 state: q0
-Tape 0: __________100101____
-Tape 1: ____________________
+Tape 0: __________1110001___
 Step 1:
 state: q2
-Tape 0: _________x00101_____
-Tape 1: ____________________
+Tape 0: _________x110001____
 Step 2:
-state: q3
-Tape 0: __________xx0101____
-Tape 1: ____________________
+state: q2
+Tape 0: ________x110001_____
 Step 3:
-state: q3
-Tape 0: ___________xx0101___
-Tape 1: ____________________
+state: q2
+Tape 0: _______x110001______
 Step 4:
-state: q4
-Tape 0: __________xx0101____
-Tape 1: ____________________
+state: q3
+Tape 0: ________x11x001_____
 Step 5:
-state: q4
-Tape 0: _________xx0101_____
-Tape 1: ____________________
+state: q3
+Tape 0: _________x11x001____
 Step 6:
-state: q4
-Tape 0: ________xx0101______
-Tape 1: ____________________
+state: q3
+Tape 0: __________x11x001___
 Step 7:
-state: q1
-Tape 0: _______xxx101_______
-Tape 1: ____________________
+state: q3
+Tape 0: ___________x11x001__
 Step 8:
-state: q3
-Tape 0: ________xxxx01______
-Tape 1: ____________________
+state: q4
+Tape 0: __________x11x001___
 Step 9:
-state: q3
-Tape 0: _________xxxx01_____
-Tape 1: ____________________
+state: q4
+Tape 0: _________x11x001____
 Step 10:
-state: q3
-Tape 0: __________xxxx01____
-Tape 1: ____________________
+state: q2
+Tape 0: ________xx1x001_____
 Step 11:
-state: q3
-Tape 0: ___________xxxx01___
-Tape 1: ____________________
+state: q2
+Tape 0: _______xx1x001______
 Step 12:
-state: q4
-Tape 0: __________xxxx01____
-Tape 1: ____________________
+state: q2
+Tape 0: ______xx1x001_______
 Step 13:
-state: q4
-Tape 0: _________xxxx01_____
-Tape 1: ____________________
-Step 14:
-state: q4
-Tape 0: ________xxxx01______
-Tape 1: ____________________
-Step 15:
-state: q4
-Tape 0: _______xxxx01_______
-Tape 1: ____________________
-Step 16:
-state: q4
-Tape 0: ______xxxx01________
-Tape 1: ____________________
-Step 17:
-state: q1
-Tape 0: _____xxxxx1_________
-Tape 1: ____________________
-Step 18:
 state: q3
-Tape 0: ______xxxxxx________
-Tape 1: ____________________
+Tape 0: _______xx1xx01______
+Step 14:
+state: q3
+Tape 0: ________xx1xx01_____
+Step 15:
+state: q3
+Tape 0: _________xx1xx01____
+Step 16:
+state: q3
+Tape 0: __________xx1xx01___
+Step 17:
+state: q3
+Tape 0: ___________xx1xx01__
+Step 18:
+state: q4
+Tape 0: __________xx1xx01___
 Step 19:
-state: q3
-Tape 0: _______xxxxxx_______
-Tape 1: ____________________
+state: q4
+Tape 0: _________xx1xx01____
 Step 20:
-state: q3
-Tape 0: ________xxxxxx______
-Tape 1: ____________________
+state: q4
+Tape 0: ________xx1xx01_____
 Step 21:
-state: q3
-Tape 0: _________xxxxxx_____
-Tape 1: ____________________
-Step 22:
-state: q3
-Tape 0: __________xxxxxx____
-Tape 1: ____________________
-Step 23:
-state: q3
-Tape 0: ___________xxxxxx___
-Tape 1: ____________________
-Step 24:
-state: q4
-Tape 0: __________xxxxxx____
-Tape 1: ____________________
-Step 25:
-state: q4
-Tape 0: _________xxxxxx_____
-Tape 1: ____________________
-Step 26:
-state: q4
-Tape 0: ________xxxxxx______
-Tape 1: ____________________
-Step 27:
-state: q4
-Tape 0: _______xxxxxx_______
-Tape 1: ____________________
-Step 28:
-state: q4
-Tape 0: ______xxxxxx________
-Tape 1: ____________________
-Step 29:
-state: q4
-Tape 0: _____xxxxxx_________
-Tape 1: ____________________
-Step 30:
-state: q4
-Tape 0: ____xxxxxx__________
-Tape 1: ____________________
-Accepted.
-
-$ ./ktape_keoughKitch.py tests/check_2tapeDTM_KeoughKitch.csv 1001011
-Running Machine on input: 1001011
-Step 0:
-state: q0
-Tape 0: __________1001011___
-Tape 1: ____________________
-Step 1:
 state: q2
-Tape 0: _________x001011____
-Tape 1: ____________________
-Step 2:
-state: q3
-Tape 0: __________xx01011___
-Tape 1: ____________________
-Step 3:
-state: q3
-Tape 0: ___________xx01011__
-Tape 1: ____________________
-Step 4:
-state: q4
-Tape 0: __________xx01011___
-Tape 1: ____________________
-Step 5:
-state: q4
-Tape 0: _________xx01011____
-Tape 1: ____________________
-Step 6:
-state: q4
-Tape 0: ________xx01011_____
-Tape 1: ____________________
-Step 7:
-state: q1
-Tape 0: _______xxx1011______
-Tape 1: ____________________
-Step 8:
-state: q3
-Tape 0: ________xxxx011_____
-Tape 1: ____________________
-Step 9:
-state: q3
-Tape 0: _________xxxx011____
-Tape 1: ____________________
-Step 10:
-state: q3
-Tape 0: __________xxxx011___
-Tape 1: ____________________
-Step 11:
-state: q3
-Tape 0: ___________xxxx011__
-Tape 1: ____________________
-Step 12:
-state: q4
-Tape 0: __________xxxx011___
-Tape 1: ____________________
-Step 13:
-state: q4
-Tape 0: _________xxxx011____
-Tape 1: ____________________
-Step 14:
-state: q4
-Tape 0: ________xxxx011_____
-Tape 1: ____________________
-Step 15:
-state: q4
-Tape 0: _______xxxx011______
-Tape 1: ____________________
-Step 16:
-state: q4
-Tape 0: ______xxxx011_______
-Tape 1: ____________________
-Step 17:
-state: q1
-Tape 0: _____xxxxx11________
-Tape 1: ____________________
-Step 18:
+Tape 0: _______xxxxx01______
+Step 22:
+state: q2
+Tape 0: ______xxxxx01_______
+Step 23:
+state: q2
+Tape 0: _____xxxxx01________
+Step 24:
 state: q3
 Tape 0: ______xxxxxx1_______
-Tape 1: ____________________
-Step 19:
+Step 25:
 state: q3
 Tape 0: _______xxxxxx1______
-Tape 1: ____________________
-Step 20:
+Step 26:
 state: q3
 Tape 0: ________xxxxxx1_____
-Tape 1: ____________________
-Step 21:
+Step 27:
 state: q3
 Tape 0: _________xxxxxx1____
-Tape 1: ____________________
-Step 22:
+Step 28:
 state: q3
 Tape 0: __________xxxxxx1___
-Tape 1: ____________________
-Step 23:
+Step 29:
 state: q3
 Tape 0: ___________xxxxxx1__
-Tape 1: ____________________
-Step 24:
-state: q4
-Tape 0: __________xxxxxx1___
-Tape 1: ____________________
-Step 25:
-state: q4
-Tape 0: _________xxxxxx1____
-Tape 1: ____________________
-Step 26:
-state: q4
-Tape 0: ________xxxxxx1_____
-Tape 1: ____________________
-Step 27:
-state: q4
-Tape 0: _______xxxxxx1______
-Tape 1: ____________________
-Step 28:
-state: q4
-Tape 0: ______xxxxxx1_______
-Tape 1: ____________________
-Step 29:
-state: q4
-Tape 0: _____xxxxxx1________
-Tape 1: ____________________
 Step 30:
 state: q4
-Tape 0: ____xxxxxx1_________
-Tape 1: ____________________
+Tape 0: __________xxxxxx1___
 Step 31:
+state: q4
+Tape 0: _________xxxxxx1____
+Step 32:
+state: q4
+Tape 0: ________xxxxxx1_____
+Step 33:
+state: q4
+Tape 0: _______xxxxxx1______
+Step 34:
+state: q4
+Tape 0: ______xxxxxx1_______
+Step 35:
+state: q4
+Tape 0: _____xxxxxx1________
+Step 36:
+state: q4
+Tape 0: ____xxxxxx1_________
+Step 37:
 state: q2
 Tape 0: ___xxxxxxx__________
-Tape 1: ____________________
 Rejected.
